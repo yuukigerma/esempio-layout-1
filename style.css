@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contenitore-pagina{
+    border: 2px solid red;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    border: 2px solid blue;
+}
+nav{
+    border: 2px solid green;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+main{
+    border: 2px solid purple;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+aside{
+    border: 2px solid yellow;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+article{
+    border: 2px solid black;
+}
+footer{
+    border: 2px solid gray;
+    clear: both;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+nav > ul{
+    padding-left: 0px;
+}
+
+nav li:hover, li.active{
+    background: black;
+    color: white;
+}
